@@ -55,6 +55,7 @@ public class App {
             i++;
         }
 
+        System.out.println();
         System.out.println("Your result is \"" + result + "\"");
         myScanner.close();
     }
