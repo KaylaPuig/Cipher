@@ -24,7 +24,7 @@ public class App {
             tempB = !tempB;
         }
         seed = seed % 26;
-        shiftNum = shiftNum % 26;
+        shiftNum = 1 + shiftNum % 25;
 
         System.out.println();
         System.out.println("Enter your phrase to encrypt/decrypt");
