@@ -6,7 +6,6 @@ public class App {
     public static void main(String[] args) {
         Scanner myScanner = new Scanner(System.in);
 
-        System.out.println();
         System.out.println("Enter a random seed: ");
         String seedStr = myScanner.nextLine();
 
