@@ -4,6 +4,14 @@ import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) {
+        desktopMain(args);
+    }
+
+    public static void desktopMain(String[] args) {
+        consoleMain(args);
+    }
+
+    public static void consoleMain(String[] args) {
         Scanner myScanner = new Scanner(System.in);
 
         System.out.println("Enter a random seed: ");

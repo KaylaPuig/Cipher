@@ -21,8 +21,8 @@ public class Cipher {
                 shiftNum += c;
             tempB = !tempB;
         }
-        seed = seed % 26;
-        shiftNum = 1 + shiftNum % 25;
+        seed = seed % characters.length();
+        shiftNum = 1 + shiftNum % (characters.length() - 1);
 
         int i = 0;
         for(char c : phrase.toCharArray()) {
@@ -55,8 +55,8 @@ public class Cipher {
                 shiftNum += c;
             tempB = !tempB;
         }
-        seed = seed % 26;
-        shiftNum = 1 + shiftNum % 25;
+        seed = seed % characters.length();
+        shiftNum = 1 + shiftNum % (characters.length() - 1);
 
         int i = 0;
         for(char c : phrase.toCharArray()) {
